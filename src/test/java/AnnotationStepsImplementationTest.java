@@ -14,6 +14,5 @@ public class AnnotationStepsImplementationTest extends BaseTest {
     annotationSteps.openRepositoryLink(REPOSITORY);
     annotationSteps.openIssueTab();
     annotationSteps.checkIssueNumber(ISSUE_NUMBER);
-    takeScreenshot();
   }
 }

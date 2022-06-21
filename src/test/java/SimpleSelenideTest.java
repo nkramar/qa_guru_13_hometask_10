@@ -22,7 +22,6 @@ public class SimpleSelenideTest extends BaseTest {
     $(linkText(REPOSITORY)).click();
     $(partialLinkText("Issues")).click();
     $(withText("#" + ISSUE_NUMBER)).should(Condition.exist);
-    takeScreenshot();
 
   }
 }

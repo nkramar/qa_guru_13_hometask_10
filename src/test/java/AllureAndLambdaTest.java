@@ -25,7 +25,7 @@ public class AllureAndLambdaTest extends BaseTest {
       $(withText("#" + ISSUE_NUMBER)).should(Condition.exist);
 
     });
-    takeScreenshot();
+
   }
 
 
